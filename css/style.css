@@ -50,6 +50,11 @@ body {
 	height: 110px;
 	overflow: hidden;
 	border-bottom: 1px dotted #CCC;
+	
+	-webkit-animation: animation 1s;
+	-moz-animation: animation 1s;
+	-o-animation: animation 1s;
+	animation: animation 1s;
 }
 
 #results li:hover {
@@ -79,4 +84,22 @@ body {
 	border-radius: 10px;
 }
 
+@-webkit-keyframes animation {
+	0% { opacity: 0.3; }
+	100% { opacity: 1.0; }
+}
 
+@-moz-keyframes animation {
+	0% { opacity: 0.3; }
+	100% { opacity: 1.0; }
+}
+
+@-o-keyframes animation {
+	0% { opacity: 0.3; }
+	100% { opacity: 1.0; }
+}
+
+@-keyframes animation {
+	0% { opacity: 0.3; }
+	100% { opacity: 1.0; }
+}
