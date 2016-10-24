@@ -1,3 +1,38 @@
 body {
 	background: #DAD7C7;
 }
+#searchbox {
+	margin: 0 auto;
+	text-align: center;
+	background: #BF996B;
+	padding: 10px;
+	width: 30%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#searchbox label {
+	font: bold 1.3em Arial;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	color: #A61C1C;
+}
+
+#searchbox p {
+	margin: 0;
+	line-height: 1em;
+	padding-bottom: 5px;
+}
+
+#searchbox input {
+	width: 80%;
+	text-align: center;
+}
+
+#results {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	width: 70%;
+	margin: 0 auto;
+	border-top: 1px dotted #CCC;
+}
