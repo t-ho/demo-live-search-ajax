@@ -1,10 +1,10 @@
 body {
-	background: #DAD7C7;
+	background: #BCBCBC;
 }
 #searchbox {
 	margin: 0 auto;
 	text-align: center;
-	background: #BF996B;
+	background: #4A4848;
 	padding: 10px;
 	width: 30%;
 	-webkit-border-radius: 10px;
@@ -16,13 +16,14 @@ body {
 	font: bold 1.3em Arial;
 	text-transform: uppercase;
 	padding-bottom: 5px;
-	color: #A61C1C;
+	color: #F42E03;
 }
 
 #searchbox p {
 	margin: 0;
 	line-height: 1em;
 	padding-bottom: 5px;
+	color: #E6E0DF;
 }
 
 #searchbox input {
@@ -47,6 +48,7 @@ body {
 	width: 100%;
 	background: #EEE;
 	padding-bottom: 10px;
+	padding-top: 10px;
 	height: 110px;
 	overflow: hidden;
 	border-bottom: 1px dotted #CCC;
